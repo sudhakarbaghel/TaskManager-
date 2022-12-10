@@ -1,0 +1,27 @@
+.taskContainer{
+    
+    padding: 50px;
+
+
+}
+.writeForm{
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+
+     
+}
+.writeFormGroup{
+    display: flex;
+    justify-content:  space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.writeFormBtn{
+    display: flex;
+    justify-content: center;
+}
+.writeFormGroup>select{
+    width:30%;
+}

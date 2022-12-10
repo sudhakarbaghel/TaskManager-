@@ -1,0 +1,92 @@
+.home{
+    background-color:#003580 ;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+   
+}
+.homeContainer{
+   
+      margin-top: 70px;
+      margin-bottom: 50px;
+      padding: 10px;
+    width: 100%;
+     max-width: 1024px;
+    background-color: white;
+    position: relative;
+     
+}
+.crtTaskBtn{
+position: absolute;
+right: 0;
+top:-35px;
+cursor: pointer;
+padding: 5px;
+}
+ 
+.name{
+  width:35%
+}
+.status{
+  width:20%;
+  border-right:none
+}
+
+
+table{
+
+   width: 100%;
+  
+}
+
+ table, th, td {
+  
+  
+  height: max-content;
+ 
+  border: 1px solid #003580;
+
+    
+  border-collapse: collapse;
+}
+ 
+
+  
+th {
+  color: gray;
+    
+ 
+}
+  
+td {
+  text-align: center;
+    
+  color: #003580;
+  
+}
+select,option{
+  width: 100%;
+  cursor: pointer;
+}
+ 
+
+
+ 
+ 
+ 
+.close{
+    position: absolute;
+    top: -35px;
+    right: 0;
+    font-size: 30px;
+    color: lightgray;
+    cursor: pointer;
+}
+.priorityMarker>span{
+  background-color: red;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right:5px;
+  color: white;
+}
+ 
